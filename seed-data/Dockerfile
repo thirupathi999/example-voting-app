@@ -14,4 +14,3 @@ COPY . .
 RUN python make-data.py
 
 CMD /seed/generate-votes.sh
-
